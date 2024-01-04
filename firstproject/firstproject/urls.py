@@ -20,6 +20,7 @@ from firstapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('ts/',views.wish)
+    path('ts/',views.wish),
+    path('st/',views.vj)
 
 ]
